@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -58,7 +58,7 @@ main {
     margin: 0 20px;
 }
 
-/* Sidebar */
+
 #sidebar, #right-sidebar {
     flex: 1;
     background-color: #fff;
@@ -93,7 +93,7 @@ main {
     margin-right: 8px;
 }
 
-/* Post Creation */
+
 #post-creation {
     background-color: #fff;
     padding: 20px;
@@ -137,7 +137,6 @@ main {
     background-color: #08378f;
 }
 
-/* News Feed */
 #news-feed {
     background-color: #fff;
     padding: 20px;
@@ -172,7 +171,7 @@ main {
     color: #999;
 }
 
-/* Right Sidebar */
+
 #trending ul li a, #suggested-friends ul li a {
     color: #0c368a;
     text-decoration: none;
@@ -232,7 +231,7 @@ main {
     background-color: #08378f;
 }
 
-/* User Posts Section */
+
 #user-posts {
     margin-top: 20px;
 }
@@ -243,7 +242,7 @@ main {
     margin-bottom: 15px;
 }
 
-/* Post Styling */
+
 .post {
     background-color: #fff;
     padding: 15px;
@@ -273,7 +272,7 @@ main {
     margin-bottom: 15px;
 }
 
-/* Post Styling */
+
 .post {
     background-color: #fff;
     padding: 15px;
@@ -307,7 +306,6 @@ main {
     margin-top: 10px;
 }
 
-/* News Feed Section */
 #news-feed {
     margin-top: 20px;
 }
@@ -318,7 +316,7 @@ main {
     margin-bottom: 15px;
 }
 
-/* Post Styling */
+
 .post {
     background-color: #fff;
     padding: 15px;
@@ -346,9 +344,9 @@ main {
     color: #999;
 }
 
-/* Image styling */
+
 .post img {
-    max-width: 400px; /* Adjust to ensure smaller images */
+    max-width: 400px;
     height: auto;
     border-radius: 8px;
     margin-top: 10px;
