@@ -1,10 +1,10 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-    loadUserPosts(); // Load posts from local storage or API
+    loadUserPosts(); 
 });
 
 function loadUserPosts() {
-    // Example static posts for demonstration; replace with actual data
+   
     const posts = [
         { content: 'Just had a great meal at a local restaurant!', author: 'neha_user_29', timestamp: 'August 3, 2024', image: 'place.jpg' },
         { content: 'Excited for the new semester to start!', author: 'neha_user_29', timestamp: 'August 2, 2024', image: 'sem.jpg' }
@@ -26,11 +26,11 @@ function loadUserPosts() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    loadPosts(); // Load posts dynamically
+    loadPosts(); 
 });
 
 function loadPosts() {
-    // Example static posts; replace with actual data from an API or database
+
     const posts = [
         { content: 'Exploring new tech trends this summer!', author: 'tech_lover', timestamp: 'August 3, 2024', image: 'tech.jpg' },
         { content: 'Just finished reading a great book!', author: 'bookworm', timestamp: 'August 2, 2024', image: 'book.jpg' },
@@ -60,7 +60,7 @@ function createPost() {
     if (content) {
         const newsFeedSection = document.getElementById('news-feed');
 
-        // Create a new post element
+        
         const postElement = document.createElement('div');
         postElement.classList.add('post');
         postElement.innerHTML = `
@@ -69,10 +69,8 @@ function createPost() {
             <small>Just now</small>
         `;
 
-        // Append the new post to the news feed
         newsFeedSection.insertBefore(postElement, newsFeedSection.firstChild);
 
-        // Clear the textarea after posting
         textarea.value = '';
     } else {
         alert('Please write something before posting.');
